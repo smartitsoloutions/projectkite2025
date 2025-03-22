@@ -3,7 +3,7 @@ public class Main {
         System.out.println("Hello, World!");
 
         // Variables
-        int number = 10;
+        int number = 20;
         String message = "Java is fun!";
         
         // Loop
@@ -20,3 +20,6 @@ public class Main {
         System.out.println("Hello, " + name + "!");
     }
 }
+
+// Method call
+        greet("Alice");email address
