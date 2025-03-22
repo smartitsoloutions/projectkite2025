@@ -1,0 +1,22 @@
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+
+        // Variables
+        int number = 10;
+        String message = "Java is fun!";
+        
+        // Loop
+        for (int i = 0; i < number; i++) {
+            System.out.println(i + ": " + message);
+        }
+
+        // Method call
+        greet("Alice");
+    }
+
+    // Method definition
+    public static void greet(String name) {
+        System.out.println("Hello, " + name + "!");
+    }
+}
