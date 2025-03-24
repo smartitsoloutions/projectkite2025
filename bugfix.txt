@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class LoginExample {
+    public static void main(String[] args) {
+        // Predefined username and password
+        String correctUsername = "user123";
+        String correctPassword = "password123";
+
+        // Create a scanner object for user input
+        Scanner scanner = new Scanner(System.in);
+
+        // Ask for username
+        System.out.print("Enter username: ");
+        String username = scanner.nextLine();
+
+        // Ask for password
+        System.out.print("Enter password: ");
+        String password = scanner.nextLine();
+
+        // Check if the username and password match
+        if (username.equals(correctUsername) && password.equals(correctPassword)) {
+
